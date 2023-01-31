@@ -6,4 +6,24 @@
         padding: 0;
         list-style: none;
     }
+    & a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+#header{
+    & ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .my_title{
+        cursor: pointer;
+    }
+    & a{
+       text-decoration: none;
+       color: black; 
+    }
 }
