@@ -9,9 +9,9 @@ class MainController extends Controller
 {
     public function home(){
 
-        $movie = Movie::all();
+        $movies = Movie::all();
         $data = [
-            'movie' => $movie
+            'movies' => $movies
         ];
         return view('pages/home', $data);
         // $data = [

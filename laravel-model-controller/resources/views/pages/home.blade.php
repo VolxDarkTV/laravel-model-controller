@@ -6,10 +6,10 @@
 
 @section('movie')
 
-    <div id="home">
-        <ul class="d-flex gap-3">
-            @foreach ($movie as $item)
-                <li>
+    <div id="home" class="container d-flex pt-5">
+        <ul class="row d-flex flex-wrap gap-3">
+            @foreach ($movies as $item)
+                <li class="col-2">
                     <div class="card">
                         <h6>Title: {{$item -> title}}</h6>
                         <span>Original Title: {{$item -> original_title}}</span>
@@ -21,5 +21,6 @@
             @endforeach
         </ul>
     </div>
+    
 
 @endsection
