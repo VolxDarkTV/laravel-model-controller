@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     public function home(){
-        return "MainController";
+        $data = [
+            'name' => 'Vincenzo FOTI'
+        ];
+        return view('pages/home', $data);
     }
 }
