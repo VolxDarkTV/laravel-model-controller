@@ -6,6 +6,6 @@
 
 @section('movie')
 
-    <h1>Movie {{$name}}</h1>
+    <h1>Movie {{$movie}}</h1>
 
 @endsection
