@@ -1,4 +1,4 @@
-@extends('main')
+@extends('layouts/main')
 
 @section('head')
     <title>Home</title>
