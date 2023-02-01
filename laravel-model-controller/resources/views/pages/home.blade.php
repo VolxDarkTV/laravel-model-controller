@@ -10,7 +10,7 @@
         <ul class="row d-flex justify-content-between flex-wrap gap-3">
             @foreach ($movies as $movie)
                 <li class="col-2">
-                    <a class="card">
+                    <a class="card p-2">
                         <h6>Title: {{$movie -> title}}</h6>
                         <span>Original Title: {{$movie -> original_title}}</span>
                         <span>Lang: {{$movie -> nationality}}</span>
